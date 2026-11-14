@@ -1,0 +1,21 @@
+.contact {
+  background: var(--color-surface);
+  text-align: center;
+}
+
+.contact .section-heading {
+  margin-bottom: var(--space-lg);
+}
+
+.contact p {
+  max-width: 50ch;
+  margin-inline: auto;
+  margin-bottom: var(--space-2xl);
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
