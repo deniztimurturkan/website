@@ -1,0 +1,43 @@
+:root {
+  /* ── Colors ── */
+  --color-bg:           #06070c;
+  --color-surface:      #10162a;
+  --color-accent:       #1d4ed8;
+  --color-accent-light: #60a5fa;
+  --color-text:         #f8fafc;
+  --color-text-muted:   rgba(248, 250, 252, 0.62);
+  --color-border:       rgba(248, 250, 252, 0.08);
+
+  /* ── Typography ── */
+  --font-display: 'Space Grotesk', 'Segoe UI', Arial, sans-serif;
+  --font-body:    'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Consolas', monospace;
+
+  /* ── Spacing scale ── */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+
+  /* ── Layout ── */
+  --max-width:     1200px;
+  --header-height: 72px;
+  --gutter:        clamp(1rem, 4vw, 2rem);
+
+  /* ── Transitions ── */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* ── Radii ── */
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* ── Shadows ── */
+  --shadow-card:       0 4px 24px rgba(0, 0, 0, 0.45);
+  --shadow-card-hover: 0 12px 40px rgba(0, 0, 0, 0.6);
+}
